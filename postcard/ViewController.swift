@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 MikeEducation. All rights reserved.
 //
 
-//MikeS
-
 import UIKit
 
 class ViewController: UIViewController {
