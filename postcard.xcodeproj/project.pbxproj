@@ -13,6 +13,8 @@
 		1577CABA1A4A3D0800C05533 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1577CAB91A4A3D0800C05533 /* Images.xcassets */; };
 		1577CABD1A4A3D0800C05533 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1577CABB1A4A3D0800C05533 /* LaunchScreen.xib */; };
 		1577CAC91A4A3D0900C05533 /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577CAC81A4A3D0900C05533 /* postcardTests.swift */; };
+		1577CAD31A4AB12C00C05533 /* sagrada-familia.png in Resources */ = {isa = PBXBuildFile; fileRef = 1577CAD21A4AB12C00C05533 /* sagrada-familia.png */; };
+		1577CAD51A4AB7AC00C05533 /* Albert-Einstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1577CAD41A4AB7AC00C05533 /* Albert-Einstein.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		1577CAAD1A4A3D0800C05533 /* postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1577CAB11A4A3D0800C05533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1577CAB21A4A3D0800C05533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1577CAB41A4A3D0800C05533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1577CAB41A4A3D0800C05533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		1577CAB71A4A3D0800C05533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1577CAB91A4A3D0800C05533 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1577CABC1A4A3D0800C05533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1577CAC21A4A3D0800C05533 /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1577CAC71A4A3D0800C05533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1577CAC81A4A3D0900C05533 /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		1577CAD21A4AB12C00C05533 /* sagrada-familia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sagrada-familia.png"; sourceTree = "<group>"; };
+		1577CAD41A4AB7AC00C05533 /* Albert-Einstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Albert-Einstein.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		1577CAB01A4A3D0800C05533 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1577CAD41A4AB7AC00C05533 /* Albert-Einstein.jpg */,
+				1577CAD21A4AB12C00C05533 /* sagrada-familia.png */,
 				1577CAB11A4A3D0800C05533 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1577CAB81A4A3D0800C05533 /* Main.storyboard in Resources */,
+				1577CAD31A4AB12C00C05533 /* sagrada-familia.png in Resources */,
+				1577CAD51A4AB7AC00C05533 /* Albert-Einstein.jpg in Resources */,
 				1577CABD1A4A3D0800C05533 /* LaunchScreen.xib in Resources */,
 				1577CABA1A4A3D0800C05533 /* Images.xcassets in Resources */,
 			);
@@ -339,8 +347,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = postcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -349,8 +359,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = postcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
